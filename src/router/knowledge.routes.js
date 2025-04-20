@@ -4,4 +4,4 @@ import { getKnowledge } from "../controller/controller.js";
 const routerKnowledge = express.Router();
 routerKnowledge.get("/", getKnowledge);
 
-export { routerKnowledge } 
+export { routerKnowledge }
