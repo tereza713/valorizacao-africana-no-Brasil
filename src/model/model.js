@@ -1,3 +1,4 @@
+// Classe modelo para dados de personalidades
 export class Personality{
     constructor(name, biography, importance){
         this.name = name;
@@ -6,6 +7,7 @@ export class Personality{
     }
 }
 
+// Classe modelo para dados de saberes africanos
 export class Knowledge{
     constructor(civilization, description){
         this.civilization = civilization;
@@ -13,7 +15,7 @@ export class Knowledge{
         this.contribution = [];
     }
 }
-
+// Classe modelo para dados de religioes
 export class Religion{
     constructor(name, origin, description, importance){
         this.name = name;

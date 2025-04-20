@@ -1,3 +1,4 @@
+// Banco de dados mockado em forma de objeto
 export const data = {
   
   personality: [
