@@ -1,6 +1,11 @@
 # API - Valorizacao da Cultura Africana
 
-Esta API tem como objetivo combater a desvalorização da herança africana no Brasil, oferecendo informações educativas sobre temas relevantes como personalidades negras, religiões de matriz africana, saberes africanos e os impactos da desvalorização cultural.
+## ⚠️ Problematização 
+Apesar da profunda influência da cultura africana na formação da identidade brasileira, essa herança tem sido historicamente marginalizada, silenciada e estigmatizada. A educação formal ainda falha em valorizar de maneira justa os saberes, tradições e personagens negros que contribuíram — e continuam contribuindo — para o desenvolvimento social, cultural e espiritual do país.
+Essa desvalorização se manifesta em diferentes esferas: no apagamento de figuras negras da história, no preconceito contra religiões de matriz africana, na invisibilização de conhecimentos ancestrais e na reprodução de estereótipos racistas.
+
+## ✊🏿 Solução 
+A proposta desta API é atuar como uma ferramenta de resistência e valorização. Ao reunir dados sobre a herança africana no Brasil, ela busca promover  fomentar o reconhecimento da cultura negra e incentivar o respeito à diversidade.
 
 ## ✨ Funcionalidades
 
