@@ -1,4 +1,5 @@
 import express from 'express';
+import corsMiddleware from './src/middlewares/cors.js';
 
 // Importa o router responsável pela rota de personalidades
 import { routerPersonality } from './src/router/personalities.routes.js';
@@ -11,6 +12,8 @@ const app = express()
 
 // define que a porta onde o servidor vai escutar será a 3000
 const PORT = 3000;
+
+app.use(corsMiddleware); // Aplicar o middleware do CORS antes de outros middlewares
 
 // define a rota principal ("/"), que retorna um texto explicando o contexto da desvalorização da cultura africana
 app.get('/', (req, res) => {
