@@ -1,18 +1,22 @@
+import { v4 as uuidv4 } from 'uuid';
 // Banco de dados mockado em forma de objeto
 export const data = {
   
   personality: [
     {
+      id: uuidv4(),
       nome: "Zumbi dos Palmares",
       biografia: "Líder quilombola e símbolo da luta contra a escravidão no Brasil. Zumbi foi fundamental na resistência ao sistema escravocrata e na preservação da liberdade dos negros, principalmente no Quilombo dos Palmares.",
       importancia: "Zumbi é um símbolo da resistência negra e da luta pela liberdade, sendo um ícone na construção da identidade afro-brasileira."
     },
     {
+      id: uuidv4(),
       nome: "Machado de Assis",
       biografia: "Fundador da Academia Brasileira de Letras e um dos maiores escritores da literatura brasileira, Machado de Assis nasceu em uma família de ex-escravizados. Sua obra reflete sobre as desigualdades sociais e raciais.",
       importancia: "Machado de Assis desafiou as convenções sociais de sua época e se tornou uma das figuras literárias mais importantes do Brasil, demonstrando a contribuição do negro à cultura brasileira."
     },
     {
+      id: uuidv4(),
       nome: "Maria Firmina dos Reis",
       biografia: "Primeira mulher negra escritora do Brasil, autora do livro 'Úrsula', uma obra que retrata a realidade da mulher negra e a resistência contra o sistema escravocrata.",
       importancia: "Maria Firmina dos Reis é uma das pioneiras na literatura brasileira, desafiando as barreiras impostas à mulher negra em um período de forte desigualdade racial."
@@ -21,6 +25,7 @@ export const data = {
 
   knowledge: [
     {
+      id: uuidv4(),
       civilizacao: "Reino do Congo",
       descricao: "Uma das civilizações mais avançadas da África Central, o Reino do Congo teve um sistema político estruturado e uma rica cultura artística e religiosa. Seus líderes eram conhecidos pela diplomacia e pelo respeito às tradições.",
       contribuições: [
@@ -30,6 +35,7 @@ export const data = {
       ]
     },
     {
+      id: uuidv4(),
       civilizacao: "Império de Mali",
       descricao: "Um dos maiores e mais ricos impérios da história da África, o Império de Mali foi um centro de comércio, educação e cultura. Sua capital, Timbuktu, era famosa por suas universidades e bibliotecas.",
       contribuições: [
@@ -39,6 +45,7 @@ export const data = {
       ]
     },
     {
+      id: uuidv4(),
       civilizacao: "Império Zulu",
       descricao: "O Império Zulu, localizado na região sul da África, é conhecido pela sua estrutura militar e resistência contra invasões. Sua cultura rica inclui danças, músicas e um sistema de governo baseado em clãs.",
       contribuições: [
@@ -51,6 +58,7 @@ export const data = {
 
   religion: [
     {
+      id: uuidv4(),
       nome: "Candomblé",
       origem: "Brasil (afro-brasileiro)",
       descricao: "Religião de matriz africana com raízes nas tradições religiosas iorubás, fon e bantus. O Candomblé reverencia os orixás, entidades espirituais que representam forças da natureza e do universo.",
@@ -67,6 +75,7 @@ export const data = {
         ]
     },
     {
+      id: uuidv4(),
       nome: "Umbanda",
       origem: "Brasil (afro-brasileiro)",
       descricao: "A Umbanda mistura elementos do Candomblé, do espiritismo e do catolicismo, com ênfase na comunicação com os espíritos de ancestrais e orixás. Ela promove a caridade e o respeito entre os seres humanos.",
@@ -83,6 +92,7 @@ export const data = {
         ]
     },
     {
+      id: uuidv4(),
       nome: "Quimbanda",
       origem: "Brasil (afro-brasileiro)",
       descricao: "Religião de matriz africana com raízes nos cultos aos antepassados e orixás. A Quimbanda tem sido historicamente marginalizada, mas representa uma forma de resistência contra a opressão e discriminação.",
